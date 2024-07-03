@@ -16,7 +16,7 @@ interface NavbarProps {
 const Navbar: FC<NavbarProps> = ({ links }) => {
     return (
         <div className={s.root}>
-            <div className={`${s.clean} mx-auto max-w-8xl px-6`}>
+            <div className={`mx-auto max-w-8xl px-20`}>
                 <div className={s.nav}>
                     <div className="flex items-center justify-between flex-1">
                         <Link href="/" className={s.logo} aria-label="Logo">
@@ -31,7 +31,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                         <div className={`${s.flexDiv} gap-10`}>
                             <nav className={s.navMenu}>
                                 <Link href="#" className={s.link}>
-                                    All
+                                    3D Studio
                                 </Link>
                                 {links?.map((l) => (
                                     <Link href={l.href} key={l.href} className={s.link}>
@@ -40,18 +40,19 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                                 ))}
                             </nav>
                             <div
-                                className={`${s.flexDiv} justify-between divide-x-2 text-secondary`}
+                                className={`${s.flexDiv} justify-between text-secondary`}
                             >
-                                <LuSearch size={20} className="mr-7 cursor-pointer" />
-                                <Link href="#" className="pl-7">
+                                <LuSearch size={20} className="cursor-pointer" />
+                                <div className="flex items-center h-7 w-0.5 mx-7 bg-primary"></div>
+                                <Link href="#" className={`${s.link}`}>
                                     Contact Us
                                 </Link>
                             </div>
                         </div>
 
                         <div className={`${s.flexDiv} justify-center gap-4 text-secondary`}>
-                            <LuShoppingCart size={20} />
-                            <LuHeart size={20} />
+                            <LuShoppingCart size={20} className={`${s.icon}`} />
+                            <LuHeart size={20} className={`${s.icon}`} />
                         </div>
                     </div>
                 </div>
