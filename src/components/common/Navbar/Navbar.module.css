@@ -12,15 +12,15 @@
 }
 
 .link {
-  @apply inline-flex items-center leading-6 transition ease-in-out duration-75 cursor-pointer text-secondary;
+  @apply inline-flex items-center leading-6 transition ease-in-out duration-75 cursor-pointer text-accent-3;
 }
 
 .link:hover {
-  @apply text-accent-2;
+  @apply text-secondary underline;
 }
 
 .link:focus {
-  @apply outline-none text-accent-8;
+  @apply outline-none text-accent-2;
 }
 
 .logo {
@@ -29,4 +29,8 @@
 
 .flexDiv {
   @apply flex items-center;
+}
+
+.icon:hover {
+  @apply cursor-pointer transform duration-100 ease-in-out
 }
