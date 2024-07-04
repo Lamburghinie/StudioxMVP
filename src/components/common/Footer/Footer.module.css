@@ -1,0 +1,25 @@
+.root {
+  @apply sticky top-0 bg-secondary z-40 transition-all duration-150;
+  min-height: 74px;
+}
+
+.nav {
+  @apply relative flex flex-row justify-between py-4 md:py-4;
+}
+
+.link {
+  @apply inline-flex items-center leading-6 transition ease-in-out duration-75 cursor-pointer text-secondary;
+}
+
+.logo {
+  @apply cursor-pointer transform duration-100 ease-in-out;
+}
+
+.flexDiv {
+  @apply flex items-center;
+}
+
+.img {
+  width: 1.65rem;
+  height: 1.65rem;
+}
