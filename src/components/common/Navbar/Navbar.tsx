@@ -3,7 +3,7 @@ import Link from 'next/link';
 import s from './Navbar.module.css';
 import Image from 'next/image';
 import { LuHeart, LuSearch, LuShoppingCart } from 'react-icons/lu';
-import navBarLinks from './NavbarData';
+import { navBarLinks } from './NavbarData';
 
 interface Link {
     link: string;
