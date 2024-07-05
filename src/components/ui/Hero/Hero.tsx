@@ -23,7 +23,7 @@ const Hero: FC<HeroProps> = ({ headline, description }) => {
                 <Image
                     src="/assets/home-banner-image-0.png"
                     alt="banner image"
-                    width={430}
+                    width={600}
                     height={200}
                     priority
                     className='row-span-2'
@@ -31,14 +31,14 @@ const Hero: FC<HeroProps> = ({ headline, description }) => {
                 <Image
                     src="/assets/home-banner-image-1.png"
                     alt="banner image"
-                    width={430}
+                    width={600}
                     height={100}
                     priority
                 />
                 <Image
                     src="/assets/home-banner-image-2.png"
                     alt="banner image"
-                    width={430}
+                    width={600}
                     height={100}
                     priority
                 />

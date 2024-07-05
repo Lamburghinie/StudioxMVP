@@ -1,5 +1,5 @@
 .root {
-    @apply flex flex-col items-center gap-5;
+    @apply flex flex-col items-center gap-10 py-10;
 }
 
 .heroText {
@@ -7,7 +7,7 @@
 }
 
 .title {
-    @apply font-bold text-5xl leading-none tracking-tight;
+    @apply font-bold text-6xl leading-none tracking-tight;
 }
 
 .description {

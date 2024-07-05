@@ -3,20 +3,17 @@ import Link from 'next/link';
 import s from './Navbar.module.css';
 import Image from 'next/image';
 import { LuHeart, LuSearch, LuShoppingCart } from 'react-icons/lu';
+import navBarLinks from './NavbarData';
 
 interface Link {
-    href: string;
+    link: string;
     label: string;
 }
 
-interface NavbarProps {
-    links?: Link[];
-}
-
-const Navbar: FC<NavbarProps> = ({ links }) => {
+const Navbar = () => {
     return (
         <div className={s.root}>
-            <div className={`mx-auto max-w-8xl px-20`}>
+            <div className={`mx-auto max-w-8xl px-14`}>
                 <div className={s.nav}>
                     <div className="flex items-center justify-between flex-1">
                         <Link href="/" className={s.logo} aria-label="Logo">
@@ -33,9 +30,9 @@ const Navbar: FC<NavbarProps> = ({ links }) => {
                                 <Link href="#" className={s.link}>
                                     3D Studio
                                 </Link>
-                                {links?.map((l) => (
-                                    <Link href={l.href} key={l.href} className={s.link}>
-                                        {l.label}
+                                {navBarLinks?.map((val, i) => (
+                                    <Link href={val.link} key={i} className={s.link}>
+                                        {val.label}
                                     </Link>
                                 ))}
                             </nav>

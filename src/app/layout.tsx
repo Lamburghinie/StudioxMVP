@@ -11,13 +11,6 @@ export const metadata: Metadata = {
   description: 'The future of Home.',
 };
 
-const navBarLinks = [
-  { href: '/furniture', label: 'Furniture' },
-  { href: '/smart-home', label: 'Smart Home' },
-  { href: '/automation-setup', label: 'Automation Setup' },
-  { href: '/partners', label: 'Partners' },
-];
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar links={navBarLinks} />
+        <Navbar />
         {children}
       </body>
     </html>
