@@ -5,3 +5,13 @@
 @import '../styles/components.css';
 
 @tailwind utilities;
+
+.contain {
+  @apply px-20;
+}
+
+@media screen and (max-width: 768px) {
+  .contain {
+    @apply px-6;
+  }
+}

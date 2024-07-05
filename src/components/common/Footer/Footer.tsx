@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <>
       <div className={s.root}>
-        <div className={`${s.clean} mx-auto max-w-8xl px-6`}>
+        <div className={`${s.clean} mx-auto max-w-8xl contain`}>
           <div className={s.nav}>
-            <div className="flex items-center justify-between flex-wrap w-full gap-5">
+            <div className="flex items-center justify-between flex-wrap w-full gap-5 border-y border-white py-8">
               <Link href="/" className={s.logo} aria-label="Logo">
                 <Image
                   src="/studio-x.svg"
@@ -44,7 +44,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div
+        className={`${s.flexDiv} contain justify-between gap-6 flex-wrap text-white`}
+      >
+        <Image
+          src="/images/footer/apps.svg"
+          alt="app"
+          width={200}
+          height={50}
+          className="img"
+        />
+        <p>@StudioX 2024</p>
+      </div>
     </>
   )
 }
