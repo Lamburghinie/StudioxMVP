@@ -1,3 +1,4 @@
+import Featured from '@/components/ui/Featured';
 import Hero from '@/components/ui/Hero';
 import Partners from '@/components/ui/Partners';
 import { Orbitron } from 'next/font/google';
@@ -12,6 +13,9 @@ export default function Home() {
 
       {/* Partners Section */}
       <Partners />
+
+      {/* Featured Section */}
+      <Featured />
 
     </main>
   );
