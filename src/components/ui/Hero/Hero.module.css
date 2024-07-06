@@ -14,6 +14,10 @@
     @apply mt-4 text-xl leading-8 text-accent-2 mb-1 lg:max-w-4xl;
 }
 
+.button {
+    @apply hover:bg-primary hover:text-primary
+}
+
 /* @screen lg {
     .root {
         @apply flex-row items-start justify-center py-32;
