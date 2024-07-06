@@ -6,30 +6,30 @@ export const partnerImages = [
   },
   {
     path: '/assets/partner-icons/walmart.svg',
-    alt: '',
+    alt: 'walmart logo',
   },
   {
     path: '/assets/partner-icons/amazon-alexa.svg',
-    alt: '',
+    alt: 'amazon alexa logo',
   },
   {
     path: '/assets/partner-icons/apple-home.png',
-    alt: '',
+    alt: 'apple home logo',
   },
   {
     path: '/assets/partner-icons/tuya.svg',
-    alt: '',
+    alt: 'tuya logo',
   },
   {
     path: '/assets/partner-icons/starlink.svg',
-    alt: '',
+    alt: 'starlink logo',
   },
   {
     path: '/assets/partner-icons/group.svg',
-    alt: '',
+    alt: 'group',
   },
   {
     path: '/assets/partner-icons/airbnb.svg',
-    alt: '',
+    alt: 'airbnb logo',
   },
 ]
