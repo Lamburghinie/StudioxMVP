@@ -1,0 +1,7 @@
+.label {
+  @apply text-sm font-semibold mb-3;
+}
+
+.input {
+  @apply outline-none border border-[#747474] rounded-lg p-3;
+}
