@@ -13,7 +13,7 @@ interface Link {
 const Navbar = () => {
     return (
         <div className={s.root}>
-            <div className={`mx-auto max-w-8xl px-14`}>
+            <div className={`mx-auto max-w-8xl px-16`}>
                 <div className={s.nav}>
                     <div className="flex items-center justify-between flex-1">
                         <Link href="/" className={s.logo} aria-label="Logo">

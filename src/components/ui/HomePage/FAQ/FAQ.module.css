@@ -1,0 +1,27 @@
+.root {
+    @apply bg-primary py-20 px-16 relative overflow-hidden flex items-start justify-between gap-10;
+}
+
+.title {
+    @apply font-black text-3xl mb-5;
+}
+
+.questionContainer {
+    @apply w-1/2
+}
+
+.questionTab {
+    @apply w-full mb-4;
+}
+
+.question {
+    @apply flex justify-between items-center cursor-pointer bg-primary p-4 shadow rounded;
+}
+
+.answer {
+    @apply mt-2 p-4 bg-primary rounded;
+}
+
+.icon {
+    @apply text-xl;
+}

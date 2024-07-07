@@ -1,0 +1,23 @@
+.root {
+    @apply bg-primary py-20 px-16
+}
+
+.container {
+    @apply bg-secondary p-10 rounded-3xl flex items-center justify-between
+}
+
+.text {
+    @apply text-secondary flex flex-col items-start gap-3 mb-5
+}
+
+.text>h1 {
+    @apply text-4xl font-extrabold
+}
+
+.button {
+    @apply hover:bg-primary hover:text-primary
+}
+
+.image {
+    @apply relative
+}

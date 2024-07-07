@@ -1,6 +1,5 @@
-import Featured from '@/components/ui/Featured';
-import Hero from '@/components/ui/Hero';
-import Partners from '@/components/ui/Partners';
+
+import { BedAndSofa, BlogPost, FAQ, Featured, Hero, LiveStore, Partners, Recommendations, ThreeDDesign } from '@/components/ui/HomePage';
 import { Orbitron } from 'next/font/google';
 
 const orbitron = Orbitron({ subsets: ['latin'] });
@@ -17,6 +16,23 @@ export default function Home() {
       {/* Featured Section */}
       <Featured />
 
+      {/* Recommendations Section */}
+      <Recommendations />
+
+      {/* 3D Design Section */}
+      <ThreeDDesign />
+
+      {/* Bed And Sofa Section */}
+      <BedAndSofa />
+
+      {/* Blog Post Section */}
+      <BlogPost />
+
+      {/* FAQ */}
+      <FAQ />
+
+      {/* Live Store Section */}
+      <LiveStore />
     </main>
   );
 }

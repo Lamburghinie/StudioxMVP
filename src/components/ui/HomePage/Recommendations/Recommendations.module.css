@@ -1,0 +1,21 @@
+.root {
+    @apply bg-secondary py-16 px-16 relative overflow-hidden;
+}
+
+.titleContainer {
+    @apply flex items-end justify-between mb-8 relative;
+}
+
+.title {
+    @apply font-bold text-2xl;
+}
+
+.button {
+    @apply hover:bg-primary hover:text-primary
+}
+
+.imageSlider {
+    @apply flex items-center gap-3 overflow-x-auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}

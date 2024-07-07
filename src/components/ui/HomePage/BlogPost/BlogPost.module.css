@@ -1,0 +1,29 @@
+.root {
+    @apply bg-secondary py-20 px-16 relative overflow-hidden flex items-start gap-10;
+}
+
+.titleContainer {
+    @apply flex flex-col items-start gap-5 relative w-4/5;
+}
+
+.title {
+    @apply font-bold text-2xl mb-5;
+}
+
+.description {
+    @apply font-bold leading-7
+}
+
+.button {
+    @apply hover:bg-primary hover:text-primary
+}
+
+.imageSlider {
+    @apply flex items-center gap-3 overflow-x-auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.imageSlider img:last-child {
+    @apply rounded-lg h-full;
+}
