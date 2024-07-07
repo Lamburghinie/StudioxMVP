@@ -2,7 +2,7 @@ import { Orbitron } from 'next/font/google';
 import s from './LiveStore.module.css';
 import Image from 'next/image';
 import { BsArrowUpRightCircle } from 'react-icons/bs';
-import CustomButton from '../../Button/CustomButton';
+import CustomButton from '@/components/ui/Button/CustomButton';
 
 const orbitron = Orbitron({ subsets: ['latin'] });
 

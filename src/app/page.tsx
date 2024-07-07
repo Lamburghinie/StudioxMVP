@@ -1,5 +1,6 @@
 
-import { BedAndSofa, BlogPost, FAQ, Featured, Hero, LiveStore, Partners, Recommendations, ThreeDDesign } from '@/components/ui/HomePage';
+
+import { BedAndSofa, BlogPost, FAQ, Featured, Hero, LiveStore, Partners, Recommendations, ThreeDDesign } from '@/components/HomePage';
 import { Orbitron } from 'next/font/google';
 
 const orbitron = Orbitron({ subsets: ['latin'] });

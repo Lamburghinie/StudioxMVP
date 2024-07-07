@@ -1,10 +1,10 @@
 import { Orbitron } from 'next/font/google';
 import s from './ThreeDDesign.module.css';
-import CustomButton from '../../Button/CustomButton';
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { threeDDesignImages } from './ThreeDDesignData';
 import Image from 'next/image';
-import Grid from '../../Grid';
+import CustomButton from '@/components/ui/Button/CustomButton';
+import Grid from '@/components/ui/Grid';
 
 const orbitron = Orbitron({ subsets: ['latin'] });
 

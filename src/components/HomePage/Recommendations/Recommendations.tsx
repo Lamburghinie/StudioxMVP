@@ -1,8 +1,8 @@
 import { Orbitron } from "next/font/google";
-import CustomButton from "../../Button/CustomButton";
 import s from './Recommendations.module.css';
 import { recommendationImages } from "./RecommendationsData";
 import Image from "next/image";
+import CustomButton from "@/components/ui/Button/CustomButton";
 
 const orbitron = Orbitron({ subsets: ['latin'] });
 

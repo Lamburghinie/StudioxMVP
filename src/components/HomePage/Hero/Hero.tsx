@@ -1,28 +1,38 @@
-import React from 'react';
-import s from './Featured.module.css';
+import React, { FC } from 'react';
+import s from './Hero.module.css';
 import { Orbitron } from 'next/font/google';
 import Image from 'next/image';
-import CustomButton from '../../Button/CustomButton';
-import Grid from '../../Grid';
-import { featuredImages } from './FeaturedData';
-import { LuFiles } from "react-icons/lu";
+
+
+import { heroImages } from './HeroData';
+import Grid from '@/components/ui/Grid';
+import CustomButton from '@/components/ui/Button/CustomButton';
 
 const orbitron = Orbitron({ subsets: ['latin'] });
 
-const Featured = () => {
+interface HeroProps {
+    className?: string;
+    headline: string;
+    description?: string;
+}
+
+const Hero: FC<HeroProps> = ({ headline, description }) => {
     return (
         <section className={`${s.root}`}>
+            <div className={`${s.heroText}`}>
+                <h1 className={`${orbitron.className} ${s.title}`}>{headline}</h1>
+                <p>{description}</p>
+            </div>
             <div className='flex items-center justify-center'>
-                <Grid layout='B'>
+                <Grid layout='A'>
                     {
-                        featuredImages?.map((val, i) => (
+                        heroImages?.map((val, i) => (
                             <Image
                                 src={val.path}
                                 alt={val.alt}
                                 key={i}
                                 width={val.width}
                                 height={val.height}
-                                className={s.featuredImages}
                                 priority
                             />
                         ))
@@ -31,12 +41,11 @@ const Featured = () => {
             </div>
 
 
-            <CustomButton className={`${orbitron.className} ${s.button}`}>
-                Download Brochure
-                <LuFiles size={20} />
+            <CustomButton className={s.button}>
+                Buy Now
             </CustomButton>
         </section>
     );
 };
 
-export default Featured;
+export default Hero;
