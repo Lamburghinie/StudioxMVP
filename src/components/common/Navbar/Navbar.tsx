@@ -1,4 +1,3 @@
-import { FC } from 'react';
 import Link from 'next/link';
 import s from './Navbar.module.css';
 import Image from 'next/image';
@@ -41,7 +40,7 @@ const Navbar = () => {
                             >
                                 <LuSearch size={20} className="cursor-pointer" />
                                 <div className="flex items-center h-7 w-0.5 mx-7 bg-primary"></div>
-                                <Link href="#" className={`${s.link}`}>
+                                <Link href="/contact" className={`${s.link}`}>
                                     Contact Us
                                 </Link>
                             </div>
@@ -54,11 +53,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
