@@ -1,0 +1,23 @@
+.root {
+    @apply bg-secondary py-16 px-16;
+}
+
+.titleContainer {
+    @apply flex flex-col items-center justify-between gap-4 text-center mb-8;
+}
+
+.title {
+    @apply font-black text-3xl mb-4;
+}
+
+.button {
+    @apply hover:bg-primary hover:text-primary
+}
+
+.overlayText {
+    @apply absolute text-secondary text-xl font-semibold;
+    bottom: 15%;
+    left: 20%;
+    transform: translate(-15%, 20%);
+    z-index: 2;
+}
