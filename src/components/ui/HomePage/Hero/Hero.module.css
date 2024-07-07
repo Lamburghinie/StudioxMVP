@@ -7,11 +7,15 @@
 }
 
 .title {
-    @apply font-bold text-6xl leading-none tracking-tight;
+    @apply font-bold text-5xl leading-none tracking-tight;
 }
 
 .description {
     @apply mt-4 text-xl leading-8 text-accent-2 mb-1 lg:max-w-4xl;
+}
+
+.button {
+    @apply hover:bg-primary hover:text-primary
 }
 
 /* @screen lg {

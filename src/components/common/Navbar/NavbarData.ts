@@ -1,5 +1,5 @@
 /** Links */
-const navBarLinks = [
+export const navBarLinks = [
   {
     // /furniture
     link: '',
@@ -21,5 +21,3 @@ const navBarLinks = [
     label: 'Partners',
   },
 ]
-
-export default navBarLinks
