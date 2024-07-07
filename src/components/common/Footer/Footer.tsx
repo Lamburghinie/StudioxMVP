@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       <div
-        className={`${s.flexDiv} contain justify-between gap-6 flex-wrap text-white`}
+        className={`${s.flexDiv} contain justify-between gap-6 flex-wrap text-white mb-7`}
       >
         <Image
           src="/images/footer/apps.svg"
