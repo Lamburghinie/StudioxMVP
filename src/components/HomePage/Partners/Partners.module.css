@@ -1,0 +1,15 @@
+.root {
+    @apply flex flex-col items-center justify-between gap-7 py-7 bg-primary;
+}
+
+.partnerText {
+    @apply flex items-center justify-center text-primary
+}
+
+.title {
+    @apply text-lg font-bold leading-none tracking-tight;
+}
+
+.imageRow {
+    @apply w-full flex items-center justify-evenly px-28;
+}
