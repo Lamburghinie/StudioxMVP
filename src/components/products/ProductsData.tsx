@@ -1,0 +1,58 @@
+export const productsdata = [
+  {
+    id: 1,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed1.png',
+  },
+  {
+    id: 2,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed2.png',
+  },
+  {
+    id: 3,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed3.png',
+  },
+  {
+    id: 4,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed4.png',
+  },
+  {
+    id: 5,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed5.png',
+  },
+  {
+    id: 6,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed6.png',
+  },
+  {
+    id: 7,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed6.png',
+  },
+  {
+    id: 8,
+    name: 'Glass wooden table',
+    price: '$400',
+    rating: 4.5,
+    product: '/images/products/bed5.png',
+  },
+]
